@@ -16,3 +16,6 @@ chmod +x giteaCracked.sh
 ## Usage:
 
 **./giteaCracked.sh -d "database.db" -o "output_file"**
+
+## Hashcat:
+**hashcat --username output_file /dictionary.txt**

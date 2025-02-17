@@ -1,4 +1,4 @@
-# giteaConvert2hashcat
+# gitea2hashcat
 Script created in Bash to cracked the password (gitea) and export in Hashcat format.
 
 ## Instalation:

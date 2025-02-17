@@ -20,15 +20,15 @@ function ctrl_c(){
   tput cnorm; exit 1
 }
 
+#Ctrl + C
+trap ctrl_c INT
+
 function helpPanel(){
   echo -e "\n${yellowColour}[+]${endColour}${grayColour} Usage:${endColour}${blueColour} $0${endColour}\n"
   echo -e "\t${purpleColour}-d)${endColour}${grayColour} Provide the database file (e.g., gitea.db)${endColour}"
   echo -e "\t${purpleColour}-o)${endColour}${grayColour} Specify the output file${endColour}"
   echo -e "\t${purpleColour}-h)${endColour}${grayColour} Display this help panel${endColour}\n"
 }
-
-#Control + C
-trap ctrl_c INT
 
 function crackedDB(){
   DB_FILE="$1"

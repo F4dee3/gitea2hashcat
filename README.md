@@ -1,7 +1,5 @@
 # gitea2hashcat
-Script created in Bash to decrypt the password and export in Hashcat format.
-
-# Cracked giteaDB
+Script created in Bash to cracked the password (gitea) and export in Hashcat format.
 
 ## Instalation:
 

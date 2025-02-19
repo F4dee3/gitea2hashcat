@@ -1,4 +1,4 @@
-# Crack pass Gitea and export fornat hashcat
+# Crack pass Gitea and export format hashcat
 Script created in Bash to cracked the password (gitea) and export in Hashcat format.
 
 ## Instalation:

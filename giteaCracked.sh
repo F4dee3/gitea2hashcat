@@ -21,7 +21,7 @@ function ctrl_c(){
 }
 
 #Ctrl + C
-trap ctrl_c INT
+trap ctrl_c SIGINT
 
 function helpPanel(){
   echo -e "\n${yellowColour}[+]${endColour}${grayColour} Usage:${endColour}${blueColour} $0${endColour}\n"
